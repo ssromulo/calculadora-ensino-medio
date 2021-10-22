@@ -1,0 +1,9 @@
+O nome inicial do app será "Calculadora Ensino Médio"
+
+O aplicativo de calculadora terá como objetivo fazer as 4 operações básicas, além de mostrar o percentual e calcular áreas de polígonos regulares.
+
+O esquema de cores será baseado em preto, branco e turquesa.
+
+O aplicativo deve ser responsivo e rodar nas plataformas Android e IOS.
+
+O valor do aplicativo será de 2 reais por unidade.

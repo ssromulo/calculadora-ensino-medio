@@ -1,0 +1,98 @@
+body{
+    background: lightgray;
+}
+
+h1{
+    font-family: Helvetica;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    text-align: center;
+}
+
+p{
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 16px;
+
+    text-transform:none;
+    text-align: left;
+
+    line-height: 2em;
+    word-spacing: 0.5em;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 99vw;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#calc{
+    border: 2px solid black;
+    border-radius: .3em;
+
+    padding: 5px;
+    width: 30em;
+}
+.presentation{
+    text-align: right;
+    font-size: 30px;
+
+    border: 2px solid black;
+    border-radius: .2em;
+}
+
+.numbers button{
+    font-size: 20px;
+    color: white;
+
+    border: solid 1px white;
+    border-radius: 1em;
+
+    padding: 10px;
+
+    background-color: rgba(0, 0, 0, 0.75);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.numbers button:hover{
+    text-shadow: 0 0 10px white;
+    cursor:pointer;
+
+    transition: 1s;
+}
+
+.operators button{
+    font-size: 20px;
+    color: black;
+
+    border: solid 1px white;
+    border-radius: .5em;
+
+    padding: 10px;
+
+    background-color: rgba(64,224,208, 0.75);
+
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+.operators button:hover{
+    text-shadow: 0 0 10px black;
+    cursor:pointer;
+
+    transition: 1s;
+}
